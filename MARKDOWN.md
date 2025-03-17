@@ -1,10 +1,6 @@
 # Git 기초
 
----
-
 ## 목차
-
----
 
 - [Git이란?](https://www.naver.com/)
 - [Git 기본 명령어](https://www.naver.com/)
@@ -15,8 +11,6 @@
 ---
 
 ## Git이란?
-
----
 
 Git은 분산형 버전 관리 시스템입니다. 여러 명이 동시에 작업할 수 있도록 코드를 관리하고, 작업 내역을 기록하는 데 사용됩니다.
 
@@ -30,8 +24,6 @@ _예를 들어_, 다음과 같은 상황에서 유용합니다:
 
 ## Git 기본 명령어
 
----
-
 ## 1. Git 저장소 초기화
 
 `git init`
@@ -40,8 +32,10 @@ _예를 들어_, 다음과 같은 상황에서 유용합니다:
 
 ## 2. 파일 추가 및 커밋
 
-` `git add <파일명>
-git commit -m "첫 번째 커밋" ` `
+```
+git add <파일명>
+git commit -m "첫 번째 커밋"
+```
 
 - 스테이징 영역에 파일을 추가하고, 커밋을 생성합니다.
 
@@ -53,19 +47,15 @@ GitHub는 Git을 기반으로 한 협업 플랫폼입니다. 다음 단계를 �
 2. **새로운 리포지토리 생성**
 3. **원격 저장소 연결:**
 
-`git remote add origin <GitHub 저장소 URL>
-git push origin main`
+```
+git remote add origin <GitHub 저장소 URL>
+git push origin main
+```
 
 ![Git 로고]
 (https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
 
----
-
 ## 추가 리소스
-
----
 
 - Git에 대해 더 알고 싶다면, [Git 공식 문서](https://git-scm.com/doc)를 확인하세요.
 - GitHub 사용법에 대한 자세한 정보는[GitHub Docs](https://docs.github.com/en)에서 찾아볼 수 있습니다.
-
----
